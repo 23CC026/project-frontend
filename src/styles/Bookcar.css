@@ -1,0 +1,67 @@
+
+    .fullpage3 {
+        /* background-image: url('https://rent-car.app/uploads/filemanager/why-kei-8e2gal_GIE8-unsplash%20(1).jpg'); */
+        /* background-color: rgb(255, 255, 255); */
+        background: "linear-gradient(180deg, #2af598 0%, #009efd 100%)";
+        background-size: cover;
+        background-size: 100% auto; /* Set height to 100% and maintain aspect ratio */
+        margin: 0; /* Remove default body margin */
+        padding: 0;
+    }
+/* Styles for the car booking form */
+
+.car-booking-container {
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(245, 223, 223, 0.9); /* Transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit width for better readability */
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+
+.car-booking-title {
+    text-align: center;
+    color: #333;
+}
+
+.car-booking-form {
+    margin-top: 20px;
+}
+
+.car-booking-group {
+    margin-bottom: 20px;
+}
+
+.car-booking-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.car-booking-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 16px;
+}
+
+.car-booking-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    margin-left: 43%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.car-booking-button:hover {
+    background-color: #0056b3;
+}

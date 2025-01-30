@@ -1,0 +1,64 @@
+.car-form-container {
+    font-family: Arial, sans-serif;
+   
+    padding: 20px;
+}
+.fullpage2{
+    background-image: url('https://www.wallpapertip.com/wmimgs/40-402687_volvo-xc60-4k-hd-desktop-wallpaper-for-4k.jpg');
+    background-size: cover;
+}
+.car-form-title {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: #ffffff;
+    margin-bottom:20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.car-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+.car-form-group + .car-form-group {
+    margin-top: 1em;
+}
+
+.car-form-label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: bold;
+    font-size: 20px;
+    color: #030a10;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.car-form-input {
+    border: 1px solid #CCCCCC;
+    font: 1em sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5em;
+}
+
+.car-form-input:focus {
+    border-color: #000;
+}
+
+.car-form-button {
+    padding: 0.7em;
+    margin-left: 43%;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.car-form-button:hover {
+    background-color: #0056b3;
+}

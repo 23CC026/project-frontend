@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullpage1{
+    /* background: linear-gradient(45deg, #3498db, #e74c3c, #2ecc71, #f39c12, #9b59b6, #e67e22, #415c5d, #ff2a00, #800080); */
+    /* background-image: url('https://th.bing.com/th/id/OIP.i7mblBZTfm3WLSGccXv--AHaFj?pid=ImgDet&w=179&h=134&c=7&dpr=1.3'); */
+    background-color: white;
+    background-size: 100% 100%;
+    /* animation: gradientAnimation 20s ease infinite, blinkAnimation 2s infinite; */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.navbar {
+    /* background: linear-gradient(45deg, #0f181e, #dc5d4f, #091f12, #8a5f1b, #9b59b6, #e67e22, #415c5d, #ff2a00, #800080); */
+    background-color: rgb(197, 197, 23);
+    overflow: hidden;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  
+
+}
+
+.navbar-links {
+    display: flex;
+   
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+   
+}
+
+.navbar-links li {
+  
+    padding: 0 1rem;
+}
+
+.img11{
+    position: fixed;
+    width:7%;
+    margin-left:0.5%;
+    margin-right:7.5%;
+}
+.img11:hover{
+    transform: scale(1.2);
+}
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}
+
+.toggle-button {
+    display: none;
+}
+
+.toggle-label {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.toggle-label .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .toggle-label {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    #toggle-button:checked + .toggle-label + .navbar-links {
+        display: flex;
+    }
+}
+.card {
+    width: 240px;
+    max-height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0; /* Lighter gray background color */
+}
+
+.car-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-details {
+    padding: 15px;
+}
+
+.car-name {
+    font-size: 22px;
+    color: #3498db;
+    margin-top: 0;
+}
+
+.car-info {
+    margin: 8px 0;
+    font-size: 14px;
+    /* Dark gray text color */
+}
+.allcars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top:1%;
+    align-items: flex-start;
+    justify-content: center;
+}
+.book {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px;
+    background-color: #3498db; /* Blue background */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.book-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+    border-color: #003d80;
+}
+
+.booked-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* Green background */
+    border: 2px solid #1e7e34;
+    border-radius: 8px;
+    cursor: not-allowed;
+}
