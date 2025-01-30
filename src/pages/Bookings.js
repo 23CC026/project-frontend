@@ -8,7 +8,7 @@ const Bookings = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:4004/api/allbooks', {
+                const response = await fetch('https://project-backend-1-2lg7.onrender.com/api/allbooks', {
                     method: 'GET',
                     headers: { 'Content-Type': 'application/json' },
                 });
