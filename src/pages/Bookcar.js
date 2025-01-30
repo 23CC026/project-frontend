@@ -9,7 +9,7 @@ const CheckinTime = document.getElementById('checkin-time').value;
 const Aadhar = document.getElementById('aadhar').value;
 console.log(Regno, Hours);
 try {
-    const response = await fetch('http://localhost:4004/api/createbook', {
+    const response = await fetch('https://project-backend-1-2lg7.onrender.com/api/createbook', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
